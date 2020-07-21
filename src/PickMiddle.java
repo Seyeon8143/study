@@ -8,7 +8,7 @@ public class PickMiddle {
         }
         //짝수일때
         else{
-            return String.valueOf(s.charAt(len/2-1);//String.valueOf(s.charAt(len/2));
+            return String.valueOf(s.charAt(len/2-1)) + String.valueOf(s.charAt(len/2));
 
         }
     }
