@@ -7,7 +7,7 @@ public class WaterMelon {
             //찍수면 수 홀수면 박
             sb.append(i%2==0? "수":"박");
         }
-        //문자로 리턴    
+        //문자로 리턴
         return sb.toString();
 
     }
